@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UyeGiris.vue snapshot 1`] = `
+<v-app>
+  <v-content>
+    <v-container fluid="" class="fill-height about">
+      <v-row align="center" justify="center">
+        <v-col cols="12" sm="12" align="center">
+          <v-card color="white" height="900px" width="700px" class="elevation-12">
+            <div id="login">
+              <h1 class="black--text text-sm-left ml-5 mb-5 mt-5">Hızlı Üyelik</h1>
+              <v-text-field id="name" dense="" outlined="" label="Adınız" class="rounded-0 ml-5 mr-5"></v-text-field>
+              <v-text-field id="email" type="email" dense="" outlined="" label="E-posta" class="rounded-0 ml-5 mr-5"></v-text-field>
+              <v-text-field id="password" type="password" dense="" outlined="" label="Şifre" class="rounded-0 ml-5 mr-5"></v-text-field>
+              <v-text-field dense="" outlined="" label="+90" class="rounded-0 ml-5 mr-5"></v-text-field>
+              <v-checkbox label="Kampanya, duyuru ve tüm sipariş süreçlerinden e-posta ile haberdar olmak istiyorum..
+                                     " class="ml-10"></v-checkbox>
+              <v-checkbox label="Kampanya, duyuru ve tüm sipariş süreçlerinden sms ile haberdar olmak istiyorum.." class="ml-10"></v-checkbox>
+              <v-checkbox label="Üyelik koşullarını ve kişisel verilerimin korunmasını kabul ediyorum." class="ml-10"></v-checkbox>
+              <v-btn type="submit" value="register" width="450px" class="rounded-0" style="background-color: black; color: white;">Üye Ol
+              </v-btn>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-content>
+</v-app>
+`;
